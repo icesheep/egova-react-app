@@ -2,6 +2,7 @@
 import React, {useState} from 'react';
 import Rect from '@/components/Rect';
 import Map from '@/components/Map';
+import Modal from '@/components/Modal';
 import ReactEcharts from 'echarts-for-react';
 import './index.less';
 import {testData} from './testData';
@@ -10,7 +11,6 @@ function Home(props) {
 
   const data1 = testData.resultInfo.data.data.slice(0,3)
   const data2 = testData.resultInfo.data.data.slice(3,6)
-
   const renderMap = () => {
     var data = [{
       name: '沛县',

@@ -8,7 +8,7 @@ function Header(props)  {
       <div className="logo-box">
         <div className="title">市县数据展示平台</div>
       </div>
-      {/* <div className="menu-box">
+      <div className="menu-box">
         {
           pagesConfig.routes.menus.map(item =>
             <NavLink to={item.route} key={item.route} className={`menu-div ${props.location.pathname.indexOf(item.route) > -1 ? 'active' : ''}`}>
@@ -18,7 +18,7 @@ function Header(props)  {
             </NavLink>
           )
         }
-      </div> */}
+      </div>
     </div>
   );
 }
