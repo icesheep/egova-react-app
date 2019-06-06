@@ -1,0 +1,22 @@
+{
+	"success": true,
+	"data": {
+		"minYear": 2017,
+		"typeList": [{
+			"key": "1",
+			"value": "流动摊点"
+		}, {
+			"key": "2",
+			"value": "店外经营"
+		}, {
+			"key": "3",
+			"value": "暴露垃圾"
+		}, {
+			"key": "4",
+			"value": "违法停车"
+		}, {
+			"key": "5",
+			"value": "违章建设"
+		}]
+	}
+}
